@@ -1,16 +1,19 @@
 import imageLogo from "../../img/logo.png"
 import styles from'./main.module.css'
 import imginsta from '../../img/instagram.svg'
-import imgyout from '../../img/youtube.svg'
+import imgtt from '../../img/twitter.svg'
 import imgtik from '../../img/tik-tok.svg'
 import Doar from "../components independent/doar"
+
+import sobreMim from '../../img/sobre.png'
+import setupLogo from '../../img/setup.png'
+
 export default function Main(){
    
     return(
         <main>
-
-            <h2 className={styles.about} id="about" >Me Conheça</h2>
-           <section className={styles.aboutChanel}>
+                <img src={sobreMim} alt="setup" className={styles.about} id="about"/>
+                   <section className={styles.aboutChanel}>
             <h3 className={styles.description}>
             Sejam bem vindos Amoris :3
 Meu nome é Yukari, tenho 25 anos e atualmente moro no Japão!! E sou adoradora de Unicórnio.
@@ -31,12 +34,13 @@ A Live e Bagunnçada, mas é de coração S2
              <div className={styles.groupSection}>
                 <section>
                     <h2 className={styles.redesTitle} id="redes">Minhas Redes Sociais</h2>
-                    <a href="https://twitter.com/yukarichanzinha" target="_blank" rel="noreferrer" className={styles.rede}> <img src={imgyout} alt="twitter"/> @yukarichanzinha</a> <br></br>
+                    <a href="https://twitter.com/yukarichanzinha" target="_blank" rel="noreferrer" className={styles.rede}> <img src={imgtt} alt="twitter"/> @yukarichanzinha</a> <br></br>
                     <a href="https://www.instagram.com/yukarichanzinha/" target="_blank" rel="noreferrer" className={styles.rede} > <img src={imginsta} alt="instagram"/> @yukarichanzinha </a> <br></br>
                     <a href="https://www.tiktok.com/@yukarichanzinha" target="_blank" rel="noreferrer" className={styles.rede}> <img src={imgtik} alt="tik tok"/> @yukarichanzinha </a> <br></br>
                 </section>
                 <section className={styles.setup}>
-                    <h2 className={styles.setupTitle} id="setup">Meu Setup</h2>
+                <img src={setupLogo} alt="setup" className={styles.setupTitle} id="setup"/>
+                    
                        
                     <ul>
                         <a href="https://amzn.to/3tjjRCd" target="_blank" rel="noreferrer" className={styles.product}><li>Processador: I5 6600;</li></a>

@@ -1,9 +1,11 @@
 import './doar.css'
-
+import logoDoar from '../../img/doar.png'
 export default function Doar(){
     return(
         <section >
-            <h2 className='support' id='support' >Apoie o Canal</h2>
+            
+            <img src={logoDoar} alt="doar" className='support' id='support'/>
+          
             <p>Apoiar o canal é uma forma de carinho e garante que continuemos trazendo conteúdos novos 
                 para vocês, mas lembre-se, nem todo apoio envolve dinheiro, o simples fato de você se inscrever 
                 no canal, deixar o like e assistir os vídeos são os maiores apoios que criadores de conteúdo podem receber.
@@ -18,9 +20,7 @@ export default function Doar(){
                 <a href="https://livepix.gg/tragiconerd" target="_blank" rel="noreferrer">
                    <div className='bot'><h1>DOAR</h1> </div>
                 </a>
-                <a href="https://www.amazon.com.br/hz/wishlist/ls/K7KBOEU4EEX0?ref_=wl_share" target="_blank" rel="noreferrer">
-                   <div className='bot'><h1>PRESENTE</h1> </div>
-                </a>
+               
             </div>
             <div className='cardSupport' >
             <h2 className='titleCard'>Apoie o canal indiretamente</h2>
