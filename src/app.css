@@ -1,0 +1,8 @@
+html{
+    background-image: url('./img/background.png');
+    scroll-behavior:smooth;
+    background-color: #00aaff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-size: 100%;
+}
