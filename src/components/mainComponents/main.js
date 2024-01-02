@@ -22,7 +22,7 @@ Meu nome é Yukari, tenho 26 anos e atualmente moro no Japão!! E sou adoradora 
 Na maior parte do tempo jogamos Valorant e sou main Killjoy (na verdade eu tento). Mas jogamos outros jogos nesta live também!
 Sou uma jogadora noob, mas jogo por diversão e gosto da sua companhia!
 Vem se aventurar e se divertir comigo!
-A Live e Bagunnçada, mas é de coração S2
+A Live e Bagunçada, mas é de coração S2
             </h3>
            
            
