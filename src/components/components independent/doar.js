@@ -7,9 +7,9 @@ export default function Doar(){
             <img src={logoDoar} alt="doar" className='support' id='support'/>
           
             <p>Apoiar o canal é uma forma de carinho e garante que continuemos trazendo conteúdos novos 
-                para vocês, mas lembre-se, nem todo apoio envolve dinheiro, o simples fato de você se inscrever 
-                no canal, deixar o like e assistir os vídeos são os maiores apoios que criadores de conteúdo podem receber.
-                TAMO JUNTO!
+                para vocês, mas lembre-se, nem todo apoio envolve dinheiro, o simples fato de você acompanhar
+                as lives é o maior apoio que nós criadores de conteúdo podemos receber.
+                
             </p>
 <div className='content'>
             <div className='cardSupport'>
@@ -17,7 +17,7 @@ export default function Doar(){
                 <p> Apoios diretos nos ajudam a investir em equipamentos novos e até comprar novos jogos
                     para criar conteúdo, fique à vontade :')
                 </p>
-                <a href="https://livepix.gg/tragiconerd" target="_blank" rel="noreferrer">
+                <a href="https://streamlabs.com/yukarichanzinha/tip" target="_blank" rel="noreferrer">
                    <div className='bot'><h1>DOAR</h1> </div>
                 </a>
                
@@ -27,12 +27,10 @@ export default function Doar(){
             <p> Apoios indiretos nos ajudam a crescer na plataforma e criar uma comunidade engajada, além de dar 
                     motivação extra para criar conteúdo, fique à vontade :')
                 </p>
-                <a href="https://www.youtube.com/@TragicoNerd?sub_confirmation=1" target="_blank" rel="noreferrer">
+                <a href="https://www.twitch.tv/yukarichanzinha" target="_blank" rel="noreferrer">
                    <div className='bot'><h1>VER CANAL</h1> </div>
                 </a>
-                <a href="https://www.youtube.com/@TragicoNerd/playlists" target="_blank" rel="noreferrer">
-                   <div className='bot'><h1>MARATONAR VIDEOS</h1> </div>
-                </a>
+               
             </div>
 </div>
         </section>

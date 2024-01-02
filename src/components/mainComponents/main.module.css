@@ -21,9 +21,9 @@ article{
 }
 
 .product{
-    text-decoration: none;
     color: white;
     font-weight: bold;
+    list-style: none;
 }
 .setupTitle{
     color: #00A2FD;
@@ -40,6 +40,7 @@ article{
 }
 .logo{
     width: 350px;
+    border-radius: 50%
 }
 .redesTitle{
     color: #00A2FD;
@@ -52,7 +53,7 @@ article{
     align-items: center;
 }
 .rede:hover{
-    color: #FF0000;
+    color: #00A2FD;
 }
 
 @media(max-width: 928px)

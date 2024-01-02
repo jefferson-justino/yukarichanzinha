@@ -5,7 +5,7 @@ export default function Footer (){
         <footer>
                    <pre>Yukarichanzinha 2023 ©</pre>
 
-                  <a href='https://www.instagram.com/devibesolucoes/' id='nome'> 
+                  <a href='https://www.instagram.com/devibesolucoes/' id='nome' target="_blank" rel="noreferrer"> 
                   <pre>Feito por DeVibe</pre></a> 
         </footer>
     )

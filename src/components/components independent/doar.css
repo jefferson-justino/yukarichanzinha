@@ -30,7 +30,7 @@ section div a{
     color: white;
 }
 .bot:hover{
-    background-color:  #FFF500;
+    background-color:  white;
     animation: scaleUp 0.3s ease-in-out;
 
 }
